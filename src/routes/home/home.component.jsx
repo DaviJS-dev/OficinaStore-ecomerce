@@ -1,4 +1,9 @@
 import Directory from '../../components/directory/directory.component';
+import Consert from '../../assets/image/conserto.jpg'
+import Cabo from '../../assets/image/cabos.jpg'
+import Carregador from '../../assets/image/carregador.jpg'
+import Capa from '../../assets/image/capa.jpg'
+import Celular from '../../assets/image/celular.jpg'
 
 
 
@@ -6,28 +11,28 @@ const Home = () => {
   const categories = [
     {
       id: 1,
-      title: 'hats',
-      imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+      title: 'Manutenção',
+      imageUrl: Consert,
     },
     {
       id: 2,
-      title: 'jackets',
-      imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+      title: 'Cabos',
+      imageUrl: Cabo,
     },
     {
       id: 3,
-      title: 'sneakers',
-      imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+      title: 'Carregadores',
+      imageUrl: Carregador,
     },
     {
       id: 4,
-      title: 'womens',
-      imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+      title: 'Capinhas',
+      imageUrl: Capa,
     },
     {
       id: 5,
-      title: 'mens',
-      imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+      title: 'Celulares',
+      imageUrl: Celular,
     },
   ]
 
